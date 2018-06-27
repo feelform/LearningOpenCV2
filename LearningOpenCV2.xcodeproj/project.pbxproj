@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7892217520E3DBFC00D44D6C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7892217420E3DBFC00D44D6C /* main.cpp */; };
 		78DAC23E20D1FC9D00CF9F1D /* libopencv_xphoto.3.4.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DAC21120D1FA7500CF9F1D /* libopencv_xphoto.3.4.1.dylib */; };
 		78DAC23F20D1FC9D00CF9F1D /* libopencv_xobjdetect.3.4.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DAC21420D1FA7500CF9F1D /* libopencv_xobjdetect.3.4.1.dylib */; };
 		78DAC24020D1FC9D00CF9F1D /* libopencv_ximgproc.3.4.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DAC21B20D1FA7500CF9F1D /* libopencv_ximgproc.3.4.1.dylib */; };
@@ -54,6 +55,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		7892217020E3DBFC00D44D6C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		78DAC1F520D1F2D800CF9F1D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -66,6 +76,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7892217220E3DBFC00D44D6C /* example_04-01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "example_04-01"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7892217420E3DBFC00D44D6C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		78DAC1F720D1F2D800CF9F1D /* LearningOpenCV2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearningOpenCV2; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DAC1FA20D1F2D800CF9F1D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		78DAC20220D1FA7500CF9F1D /* libopencv_videostab.3.4.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_videostab.3.4.1.dylib; path = ../../../../../usr/local/Cellar/opencv/3.4.1_5/lib/libopencv_videostab.3.4.1.dylib; sourceTree = "<group>"; };
@@ -129,6 +141,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7892216F20E3DBFC00D44D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		78DAC1F420D1F2D800CF9F1D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -182,10 +201,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7892217320E3DBFC00D44D6C /* example_04-01 */ = {
+			isa = PBXGroup;
+			children = (
+				7892217420E3DBFC00D44D6C /* main.cpp */,
+			);
+			path = "example_04-01";
+			sourceTree = "<group>";
+		};
 		78DAC1EE20D1F2D800CF9F1D = {
 			isa = PBXGroup;
 			children = (
 				78DAC1F920D1F2D800CF9F1D /* LearningOpenCV2 */,
+				7892217320E3DBFC00D44D6C /* example_04-01 */,
 				78DAC1F820D1F2D800CF9F1D /* Products */,
 				78DAC20120D1FA7400CF9F1D /* Frameworks */,
 			);
@@ -195,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				78DAC1F720D1F2D800CF9F1D /* LearningOpenCV2 */,
+				7892217220E3DBFC00D44D6C /* example_04-01 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -275,6 +304,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7892217120E3DBFC00D44D6C /* example_04-01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7892217820E3DBFC00D44D6C /* Build configuration list for PBXNativeTarget "example_04-01" */;
+			buildPhases = (
+				7892216E20E3DBFC00D44D6C /* Sources */,
+				7892216F20E3DBFC00D44D6C /* Frameworks */,
+				7892217020E3DBFC00D44D6C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "example_04-01";
+			productName = "example_04-01";
+			productReference = 7892217220E3DBFC00D44D6C /* example_04-01 */;
+			productType = "com.apple.product-type.tool";
+		};
 		78DAC1F620D1F2D800CF9F1D /* LearningOpenCV2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78DAC1FE20D1F2D800CF9F1D /* Build configuration list for PBXNativeTarget "LearningOpenCV2" */;
@@ -301,6 +347,9 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "feelform Corp";
 				TargetAttributes = {
+					7892217120E3DBFC00D44D6C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					78DAC1F620D1F2D800CF9F1D = {
 						CreatedOnToolsVersion = 9.4;
 					};
@@ -319,11 +368,20 @@
 			projectRoot = "";
 			targets = (
 				78DAC1F620D1F2D800CF9F1D /* LearningOpenCV2 */,
+				7892217120E3DBFC00D44D6C /* example_04-01 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7892216E20E3DBFC00D44D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7892217520E3DBFC00D44D6C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		78DAC1F320D1F2D800CF9F1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -335,6 +393,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		7892217620E3DBFC00D44D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7892217720E3DBFC00D44D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		78DAC1FC20D1F2D800CF9F1D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -386,6 +462,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/lib,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -438,6 +522,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/lib,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
@@ -449,14 +541,8 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HPNK5R843;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/usr/local/include,
-				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/usr/local/lib,
-				);
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -466,14 +552,8 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HPNK5R843;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/usr/local/include,
-				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/usr/local/lib,
-				);
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -481,6 +561,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7892217820E3DBFC00D44D6C /* Build configuration list for PBXNativeTarget "example_04-01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7892217620E3DBFC00D44D6C /* Debug */,
+				7892217720E3DBFC00D44D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		78DAC1F220D1F2D800CF9F1D /* Build configuration list for PBXProject "LearningOpenCV2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
