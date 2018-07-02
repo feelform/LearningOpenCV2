@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7867457020E9BB5D009AB4D9 /* example_04-04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7867456F20E9BB5D009AB4D9 /* example_04-04.cpp */; };
+		7867457220E9C1D5009AB4D9 /* example_05-01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7867457120E9C1D5009AB4D9 /* example_05-01.cpp */; };
 		7892217920E3DE1500D44D6C /* libopencv_xphoto.3.4.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DAC21120D1FA7500CF9F1D /* libopencv_xphoto.3.4.1.dylib */; };
 		7892217A20E3DE1500D44D6C /* libopencv_xobjdetect.3.4.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DAC21420D1FA7500CF9F1D /* libopencv_xobjdetect.3.4.1.dylib */; };
 		7892217B20E3DE1500D44D6C /* libopencv_ximgproc.3.4.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DAC21B20D1FA7500CF9F1D /* libopencv_ximgproc.3.4.1.dylib */; };
@@ -122,6 +122,7 @@
 		7836DE4B20E5B9A500D49A7C /* example_04-02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "example_04-02.cpp"; sourceTree = "<group>"; };
 		7867456D20E9B72B009AB4D9 /* example_04-03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "example_04-03.cpp"; sourceTree = "<group>"; };
 		7867456F20E9BB5D009AB4D9 /* example_04-04.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "example_04-04.cpp"; sourceTree = "<group>"; };
+		7867457120E9C1D5009AB4D9 /* example_05-01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "example_05-01.cpp"; sourceTree = "<group>"; };
 		7892217220E3DBFC00D44D6C /* example_04-01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "example_04-01"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7892217420E3DBFC00D44D6C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		78DAC1F720D1F2D800CF9F1D /* LearningOpenCV2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearningOpenCV2; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -297,6 +298,7 @@
 				7836DE4B20E5B9A500D49A7C /* example_04-02.cpp */,
 				7867456D20E9B72B009AB4D9 /* example_04-03.cpp */,
 				7867456F20E9BB5D009AB4D9 /* example_04-04.cpp */,
+				7867457120E9C1D5009AB4D9 /* example_05-01.cpp */,
 			);
 			path = "example_04-01";
 			sourceTree = "<group>";
@@ -470,7 +472,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7867457020E9BB5D009AB4D9 /* example_04-04.cpp in Sources */,
+				7867457220E9C1D5009AB4D9 /* example_05-01.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
